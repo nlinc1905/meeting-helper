@@ -1,6 +1,6 @@
 > AI can code?  I'm not worried.  Coding is only 10% of my job.
 > 
-> AI can attend meetings?  Fuck!  That's 90% of my job.
+> AI can attend meetings?  Oh no!  That's 90% of my job.
 
 # What this is
 
@@ -24,8 +24,7 @@ before recording anything.
 # How it Works
 
 You will probably want to set up a Python environment for this.  I used 3.8 for development, but 
-later versions <em>should</em> work too.  This tool works on Unix based systems.  I have not 
-(and will not) test it on Windows.
+later versions <em>should</em> work too.  This tool works on Unix based systems.
 
 ```commandline
 python -m virtualenv env
@@ -33,7 +32,7 @@ source env/bin/activate
 python -m pip install -r requirements.txt
 ```
 
-You will probably also want to run this with a GPU.  Without it, processing will be far to slow.
+You will probably also want to run this with a GPU.  Without it, processing will be too slow.
 
 ## Recording a New Meeting
 
